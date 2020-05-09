@@ -13,7 +13,7 @@ author = "Akshay Nehate"
 title = "Akshay Nehate"
 
 ## Hugo Built-in Features
-#disqusShortname = "fiznool-blog"
+#disqusShortname = "discuss-name"
 #googleAnalytics = "UA-35508451-1"
 enableRobotsTXT = true
 
@@ -39,9 +39,9 @@ keywords = "software,developer,security,hacking,pentesting,linux,hacker,cryptogr
 [params.social]
 github = "NurvX"
 linkedin = "akshay-nehate"
-#twitter = "fiznool"
-#stackoverflow = "1171775/tom-spencer"
-email = "akshaynehate@gmail.com"
+#twitter = "twitter account"
+#stackoverflow = "stackoverflow account"
+email = "hello@akshay.nz"
 
 ## Extras
 [params.extra]
@@ -63,7 +63,7 @@ poweredby = true
     name = "Hire Me"
     identifier = "hire-me"
     weight = 300
-    url = "mailto:akshaynehate@gmail.com"
+    url = "mailto:hello@akshay.nz"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
