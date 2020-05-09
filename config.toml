@@ -1,0 +1,72 @@
+## Basic Configuration
+
+baseurl = "/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Akshay Nehate"
+title = "Akshay Nehate"
+
+## Hugo Built-in Features
+#disqusShortname = "fiznool-blog"
+#googleAnalytics = "UA-35508451-1"
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsCodeFences = true   # Enable triple backtick 'code fences' markdown
+pygmentsUseClasses = false  # Add inline styles, no need to compile extra CSS
+pygmentsStyle = "friendly"  # Change the highlighting colour scheme
+
+## Site Settings
+[params]
+author = "Akshay Nehate"
+intro = "Datamarts and IT Operations Administrator. <br/> Auckland, NZ."
+description = "Now @Devops. Previously @System Admin. <br/> \"What is F times 5? It's Fleventy-five.\""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal website and portfolio of Akshay Nehate, a Auckland-based System Admin."
+keywords = "software,developer,security,hacking,pentesting,linux,hacker,cryptography"
+
+## Social Accounts
+[params.social]
+github = "NurvX"
+linkedin = "akshay-nehate"
+#twitter = "fiznool"
+#stackoverflow = "1171775/tom-spencer"
+email = "akshaynehate@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Akshay Nehate. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "Hire Me"
+    identifier = "hire-me"
+    weight = 300
+    url = "mailto:akshaynehate@gmail.com"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"
+
+[blackfriday]
+    fractions = false
