@@ -64,20 +64,9 @@ poweredby = true
     identifier = "hire-me"
     weight = 300
     url = "mailto:hello@akshay.nz"
-[[menu.main]]
- weight = 6
- identifier = "login"
- name = "Login"
- pre = "<i class=\"sidebar-button-icon fa fa-lg fa-lock\"></i>"
- url = "/login"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
 
 [blackfriday]
     fractions = false
-
-[params.okta]
-   clientId = "0oaq0x2tolz7bJCXO4x6"
-   baseUrl = "https://dev-295978.okta.com"
-   redirectUri = "https://www.akshay.nz/login"
