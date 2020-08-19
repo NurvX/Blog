@@ -13,8 +13,8 @@ author = "Akshay Nehate"
 title = "Akshay Nehate"
 
 ## Hugo Built-in Features
-#disqusShortname = "discuss-name"
-googleAnalytics = "G-27V4D2VHCL"
+disqusShortname = "NurvX"
+googleAnalytics = "UA-175920011-1"
 enableRobotsTXT = true
 
 # Syntax highlighting
