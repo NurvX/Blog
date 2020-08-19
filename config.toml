@@ -68,5 +68,3 @@ poweredby = true
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug/"
 
-[blackfriday]
-    fractions = false
