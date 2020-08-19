@@ -14,7 +14,7 @@ title = "Akshay Nehate"
 
 ## Hugo Built-in Features
 #disqusShortname = "discuss-name"
-#googleAnalytics = "UA-35508451-1"
+googleAnalytics = "G-27V4D2VHCL"
 enableRobotsTXT = true
 
 # Syntax highlighting
