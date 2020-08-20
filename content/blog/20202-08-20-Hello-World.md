@@ -5,4 +5,8 @@ draft: false
 thumbnail: static/img/fox.jpg
 rating: 3
 ---
-**Hello World !! The Quick Brown Fox Jumped Over The Lazy Dog**
+Hello World !! 
+
+The Quick Brown Fox Jumped Over The Lazy Dog
+
+![](/img/fox.jpg "The Quick Brown Fox Jumped Over The Lazy Dog")
