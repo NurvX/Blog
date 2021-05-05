@@ -25,7 +25,7 @@ pygmentsStyle = "friendly"  # Change the highlighting colour scheme
 ## Site Settings
 [params]
 author = "Akshay Nehate"
-intro = "Datamarts and IT Operations Administrator. <br/> Auckland, NZ."
+intro = "Senior DevOps Engineer. <br/> Auckland, NZ."
 description = "Now @Devops. Previously @System Admin. <br/> \"What is F times 5? It's Fleventy-five.\""
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
